@@ -25,3 +25,7 @@
 ![Oracle](https://img.shields.io/badge/-Oracle-333333?style=flat&logo=Oracle)
 - 🔧 &#160;![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+
+### 🤝🏻 联系我 | Contact Me
+`https://cdn.jsdelivr.net/gh/uurani/uurani/js/jquery-3.2.1.min.js`
+
