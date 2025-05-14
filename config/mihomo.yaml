@@ -48,8 +48,7 @@ dns:
     - https://8.8.8.8/dns-query # Google DoH
 
 proxies:
-  - { name: "🇯🇵日本claw",xx}
-  - { name: "🇺🇸美国dmit",xx}
+
 
 ### 出站策略锚点（用于复用）
 pr: &pr { type: select, proxies: [ 🚀 节点选择, ♻️ 自动选择, 🇯🇵日本claw, 🇺🇸美国dmit, 🎯 全球直连 ] }
@@ -73,6 +72,9 @@ proxy-groups:
 
 ### 分流规则
 rules:
+  - DOMAIN-SUFFIX,infini.money,🇯🇵日本claw
+  - DOMAIN-SUFFIX,piggo.me,DIRECT
+  - RULE-SET,lan_ip,🎯 全球直连
   - RULE-SET,private_domain,🎯 全球直连
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,ai,🤖 AI
@@ -90,7 +92,6 @@ rules:
   - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯 全球直连
-  - RULE-SET,lan_ip,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 
