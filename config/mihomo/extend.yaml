@@ -1,0 +1,4 @@
+# https://mihomo.party/docs/guide/override/yaml
++rules:
+  - DOMAIN-SUFFIX,infini.money,🇯🇵日本claw
+  - DOMAIN-SUFFIX,piggo.me,全局直连
