@@ -60,7 +60,7 @@ proxy-groups:
   - { name: 节点选择, type: select, proxies: [ 自动选择, 🇯🇵日本claw, 🇺🇸美国dmit ] ,icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg }
   - { name: 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(全局直连)).)*$" ,icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/speed.svg }
   - { name: Google, <<: *pr ,icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg }
-  - { name: Stream, <<: *pr , icon: https://cdn.jsdelivr.net/gh/uurani/uurani@refs/heads/master/js/image/stream.svg }
+  - { name: Stream, <<: *pr , icon: https://cdn.jsdelivr.net/gh/uurani/uurani@refs/heads/master/image/stream.svg }
   - { name: ChatGPT, <<: *pr , icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/chatgpt.svg }
   - { name: Microsoft, <<: *pr , icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/microsoft.svg }
   - { name: Telegram, <<: *pr ,icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/telegram.svg }
